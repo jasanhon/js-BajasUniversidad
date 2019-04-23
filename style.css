@@ -31,7 +31,7 @@
 
 .metadato{
   font-family: "Courier New";
-  border-style: dotted;
+  border-style: inset;
   background-color:azure;
   margin-left: 40px;
   margin-right: 80px;
