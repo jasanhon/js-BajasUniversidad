@@ -57,7 +57,7 @@ La historia que me gustaría transmitir es que las mujeres y el nivel socioecon�
         <div class="text">
           En primer lugar, vamos a representar las proporciones de hombres y mujeres que hay en la universidad y posteriormente por titulación.
           Para ello utilizaremos un gráfico de proporciones (que muestra la proporción o porcentaje de los distintos valores de algo al total) y en el que no es tan importante el tema de la precisión.
-          También utilizaremos un gráfico de barras apilado, con el que podemos ver que titulaciones son las que más alumnos tienen y la diferencia entre hombre y mujeres en las mismas
+          También utilizaremos un gráfico de barras apilado (donde el área de cada rectángulo es proporcional a la cantidad que representa), con el que podemos ver que titulaciones son las que más alumnos tienen y la diferencia entre hombre y mujeres en las mismas (ponemos un filtro de titulaciones que tengan al menos 60 alumnos matriculados para que el gráfico no se haga muy grande)
           <br>
           Para ello he usado la herramienta tableau desktop para los gráficos comentados.
 
@@ -66,26 +66,35 @@ La historia que me gustaría transmitir es que las mujeres y el nivel socioecon�
         <div id="plotContainer1">
 <a href="https://imgbb.com/"><img src="https://i.ibb.co/59ybzPy/Dashboard-1.png" alt="Dashboard-1" border="0"></a>
         </div>
-        
-          <h2 class="plot-title">Categorías del pasaje</h2>
-        <div id="plotContainer2">
-<a href="https://imgbb.com/"><img src="https://i.ibb.co/Z11BTL2/Titanic5.png" alt="Titanic5" border="0"></a>
+
+         <div id="plotContainer1">
+<a href="https://imgbb.com/"><img src="https://i.ibb.co/GFKzmFp/Dashboard-2.png" alt="Dashboard-2" border="0"  style="width: 600" height="610"> </a>
+        </div>
+
+          <div id="plotContainer1">
+<a href="https://imgbb.com/"><img src="https://i.ibb.co/mFSfkc0/Dashboard-3-1.png" alt="Dashboard-3-1" border="0"  style="width: 600" height="610"> </a>
         </div>
 
 
-
-        <h2 class="plot-title">SUPERVIVENCIA DENTRO DE CADA GRUPO</h2>
+        <h2 class="plot-title">Alumnos en rangos de Edad</h2>
         <div class="text">
-          En esta representación ya incluimos la variable supervivencia que es la clave de nuestro análisis. Mediante gráficos de barras apiladas ya podemos anticipar como la supervivencia de los pasajeros no parece aleatoria sino que parece depender tanto del sexo del pasajero como de la categoria del pasaje.
-          Podría haber utilizado gráficos circulares o de tarta como en el caso anterior pero en este caso para las categorías  los valores de los supervivientes están próximos.
+          En esta representación vamos a incluir una nueva variable que es la edad. Para ello vamos a hacer unos rangos y ver cuantos alumnos hay en esos rangos.
+          Vamos a usar para estos gráficos la herramienta Datawrapper.
+
+          Em primer lugar usaremos un gráfico de lineas, para ver la correlación que hay entre la edad y el número de alumnos, y como podemos observar la linea crece al máximo entre la edad de 21 a 25 años, para posteriormente ir descendiendo.
         </div> 
 
+
         <div id="plotContainer3">
-        <a href="https://ibb.co/swp6Pcs"><img src="https://i.ibb.co/J7Wyd8r/Supervivientes-por-Grupos.png" alt="Supervivientes-por-Grupos" border="0"></a>
+     <iframe title="" aria-label="Interactive line chart" id="datawrapper-chart-ndH44" src="//datawrapper.dwcdn.net/ndH44/2/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important;" height="400"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",function(a){if(void 0!==a.data["datawrapper-height"])for(var e in a.data["datawrapper-height"]){var t=document.getElementById("datawrapper-chart-"+e)||document.querySelector("iframe[src*='"+e+"']");t&&(t.style.height=a.data["datawrapper-height"][e]+"px")}})}();</script>
         </div>
         
         
         </br>
+        <div class="text">
+          También vamos a usar un gráfico tipo elecciones para poder verlo de una forma mas visual
+        </div> 
+<iframe title="" aria-label="Election Donut" id="datawrapper-chart-CARoh" src="//datawrapper.dwcdn.net/CARoh/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important;" height="500"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",function(a){if(void 0!==a.data["datawrapper-height"])for(var e in a.data["datawrapper-height"]){var t=document.getElementById("datawrapper-chart-"+e)||document.querySelector("iframe[src*='"+e+"']");t&&(t.style.height=a.data["datawrapper-height"][e]+"px")}})}();</script>
         </br>
 
         <!-- The second bar chart -->
